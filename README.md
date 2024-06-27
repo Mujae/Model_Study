@@ -42,9 +42,9 @@ For public datasets, you may refer to following links.
 
 2. Run:
 ```bash
-torchrun --nproc_per_node=[NUM_GPU] train.py [EXPERIMENT_DIR]
+python3 train.py [EXPERIMENT_DIR]
 ```
-where `[NUM_GPU]` is the number of GPUs for distributed training and `[EXPERIMENT_DIR]` is the directory created above.
+where `[EXPERIMENT_DIR]` is the directory created above.
 
 ### How to Evaluate
 
